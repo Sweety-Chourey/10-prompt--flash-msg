@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.one{
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+}
+.main{
+    height: 60%;
+    width: 60%;
+    /* background-color: black; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.a{
+    height: 90%;
+    width: 32%;
+    background: linear-gradient(black,rgb(2, 59, 10),rgba(9, 58, 3, 0.705));
+    border-radius: 20px;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.597);
+
+    
+}
+.b{
+    height: 90%;
+    width: 32%;
+    background: linear-gradient(black,rgb(113, 2, 2),rgb(58, 3, 3));
+    border-radius: 20px;
+    box-shadow: 1px 1px rgba(255, 255, 255, 0.597);
+}
+img{
+    margin-left: 40%;
+    margin-top: 10%;
+    height: 19%;
+    width: 25%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+h2{
+    margin-left: 40%;
+    margin-top: 7%;
+}
+h3{
+    margin-left: 20%;
+    
+}
+.r{
+    margin-left:40% ;
+}
+button{
+    padding: 10px 22px;
+    background-color: black;
+    color: beige;
+    border-radius: 20px;
+    margin-left:40% ;
+    margin-top: 10%;
+
+}
+.right{
+    background-color: green;
+}
+.wrong{
+    background-color: red;
+}
